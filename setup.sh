@@ -7,7 +7,7 @@ pkg install git -y
 pkg install nodejs -y
 
 echo "Cloning repository"
-git clone https://github.com/FLeafs/x.git x
+git clone https://github.com/Pikogimang/PikoX.git x
 
 echo "NPM install"
 cd && cd x
