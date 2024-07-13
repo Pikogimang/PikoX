@@ -232,4 +232,4 @@ app.delete('/game/:gameName/order/:uuid', async (req, res) => {
     }
 });
 
-app.listen(8080, () => console.log('Server running on port 8080'));
+app.listen(1010, () => console.log('Server running on port 1010'));
