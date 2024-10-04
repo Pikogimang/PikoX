@@ -94,7 +94,7 @@ class XCashShop {
         const qrisGroup = data.find(group => group.group === 'QRIS');
         if (qrisGroup && qrisGroup.datas.length > 0) {
             this.qrisChannelId = qrisGroup.datas[0].id;
-            console.log('QRIS channel ID set:', this.qrisChannelId);
+            console.log('Leon Kontol sedang set QRIS channel ID di:', this.qrisChannelId);
         } else {
             throw new Error('QRIS payment channel not found');
         }
